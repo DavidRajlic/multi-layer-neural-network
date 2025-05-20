@@ -18,7 +18,7 @@ class NeuralNetwork:
     
         
     def sigmoid(self, x):
-        return 1 / (1 + np.exp(-x)) # value between 0 and 1
+        return 1 / (1 + np.exp(-x)) # value between 0 and  1
     
     def sigmoid_derivative(self, x):
         return x * (1 - x)
